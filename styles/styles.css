@@ -1,4 +1,92 @@
 /* These are the styles for Fruitopia */
 body {
-    background-color: rgba(108, 125, 224, 0.733);
+    max-width: 1900px;
+    margin: 0 auto;
+    font-family: raleway, arial, helvetica, sans-serif;
+ /* 
+    Fluid typography
+    Viewport range is 320px - 1600px wide
+    Font size will auto resize from 12px (minimum) to 20px (maximum)
+    NOTE: Do not change 100vw. This is a constant in the formula
+  */
+
+  font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1600 - 320));
+}
+
+/* Header */
+
+header {
+    height: 60vh;
+    min-height: 350px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home header {
+    height: 75vh;
+    background-image: url(../images/sliced-citrus.jpg);
+    background-position: top center;
+}
+
+header h1 {
+    font-style: italic;
+    font-family: 'sonsie one', cursive;
+    font-size: 3em;
+    color: #e23222;
+    text-shadow: 3px 2px rgba(236,235,147,.75);
+}
+
+header h1::first-letter {
+    font-size: 2em;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'sonsie one', cursive;
+}
+
+img {
+   max-width: 100%; 
+   object-fit: cover;
+   border-radius: 5px;
+}
+
+.number-block p {
+  font-family: 'sonsie one', cursive;
+  font-weight: bold;
+  height: 1.5em;
+  width: 1.5em;
+  line-height: 1.5;
+  margin: 1vh 0;
+  border-radius: 50%;
+  color: #0a940a;
+  background-color: #FFF;
+  text-align: center;
+  font-size: 4.5em;
+  box-shadow: 10px 5px 40px #e3f5ab, -10px -5px 50px #0a940a;  
+}
+
+.container-block {
+    background-color: #f6f5b2;
+}
+
+.home .container-block {
+    background-color:#0a940a;
+    background: linear-gradient(to bottom, #0a940a 0%, #eef2a2 100%);
+}
+
+.home .container-block h2 {
+    color: #fff;
+}
+
+.parallax {
+    min-height: 350px;
+    background-image: url(../images/green-apples.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
