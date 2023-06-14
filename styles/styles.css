@@ -278,6 +278,18 @@ footer {
     padding: 0 10vw;
 }
 
+footer a {
+    color: #ed872d;
+
+}
+
+footer a:hover {
+    color: #639177;
+}
+
+footer a:active {
+    color: #e22232;
+}
 
 /*like css in css, make new rules if a screen-width is 0-768px*/
 @media screen and (max-width: 768px) {
