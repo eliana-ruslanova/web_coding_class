@@ -186,3 +186,15 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*like css in css, make new rules if a screen-width is 0-768px*/
+@media screen and (max-width: 768px) {
+    
+    header,
+    .home header {
+        height: 50vh
+    }
+
+    .parallax {
+        min-height: 200px;
+    }
+}
