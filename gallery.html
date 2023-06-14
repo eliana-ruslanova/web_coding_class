@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Fruitopia is your hub for all things fruit">
-    <title>Harper Coding Boot Camp: Fruitopia Home</title>
+    <meta name="description" content="Enjoy our gallery of fruit">
+    <title>Harper Coding Boot Camp: Fruitopia gallery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Sonsie+One&display=swap"
@@ -13,84 +13,133 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body class="home">
+<body class="gallery">
     <!-- This will be a working nav bar -->
     <nav class="row">
         <a href="index.html" class="logo-icon">F</a>
-        <a href="index.html" class="current">Home</a>
+        <a href="index.html">Home</a>
         <a href="products.html">Products</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="gallery.html" class="current">Gallery</a>
         <a href="contact.html">Contact</a>
     </nav>
 
     <header>
         <div>
-            <h1>Fruitopia</h1>
-            <p>Feed your body and soul</p>
+            <h1>Gallery</h1>
+            <p>Soak in the beauty of our fantastic fruit</p>
         </div>
-        <!-- CTA button-->
-        <a href="#" class="btn btn-order">Order Now</a>
     </header>
 
-    <main>
-        <div class="row">
-            <div class="number-block">
-                <p>4</p>
-            </div>
+    <main class="container-block">
+        <h2>Give Our Fruit a Spin!</h2>
 
-            <section class="info-block">
-                <h2>Daily Servings</h2>
-                <p>
-                    The American Heart Association recommends 4 servings of fruits per day.
-                </p>
-            </section>
+        <div class="row">
+            <figure>
+                <img src="/images/sm_apples.png" alt="Up-close apples">
+                <figcaption>
+                    Granny Smith Apples
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="/images/sm_blueberries.png" alt="Up-close blueberries">
+                <figcaption>
+                    Very Blueberries
+                </figcaption>
+            </figure>
+
+            <!-- for gallery.html -->
+
+            <figure>
+
+                <img src="images/sm_cherries.png" alt="Up-close cherries">
+                <figcaption>
+                    Bing Cherries
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_dragonfruit.png" alt="Up-close dragonfruit">
+                <figcaption>
+                    Dragonfruit
+                </figcaption>
+            </figure>
+
+            <!-- begin lazy loading of images (below the fold) -->
+            <figure>
+                <img src="images/sm_grapes.png" alt="Up-close grapes" loading="lazy">
+                <figcaption>
+                    Purple and Green Grapes
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_kiwi.png" alt="Up-close sliced kiwi" loading="lazy">
+                <figcaption>
+                    Kiwi
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_mangoes.png" alt="Up-close mangoes" loading="lazy">
+                <figcaption>
+                    Haden Mangoes
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_oranges.png" alt="Up-close oranges" loading="lazy">
+                <figcaption>
+                    Valencia Oranges
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_peaches.png" alt="Up-close peaches" loading="lazy">
+                <figcaption>
+                    Peaches
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_plums.png" alt="Up-close plums" loading="lazy">
+                <figcaption>
+                    Plums
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_raspberries.png" alt="Up-close raspberries" loading="lazy">
+                <figcaption>
+                    Raspberries
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_starfruit.png" alt="Up-close starfruit" loading="lazy">
+                <figcaption>
+                    Starfruit
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_strawberries.png" alt="Up-close strawberries" loading="lazy">
+                <figcaption>
+                    Strawberries
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/sm_watermelon.png" alt="Up-close sliced watermelon" loading="lazy">
+                <figcaption>
+                    Watermelon
+                </figcaption>
+            </figure>
+            -->
+
+
         </div>
 
-        <!-- This will contain 3 cards -->
-        <section class="container-block">
-            <h2>Fruit Musings</h2>
-
-            <div class="row">
-                <!-- flex item 1 and a flex container -->
-                <section class="card">
-                    <img src="images/starfruit_thin.jpg" alt="Starfuit slices">
-                    <h3>Wish Upon A Starfruit</h3>
-                    <p>
-                        Cherry bomb cayenne apples burritos scotch bonnet pepper black bean
-                        wraps walnut mushroom tart tofu dessert Bulgarian carrot ginger
-                        lemongrass agave green tea macadamia nut cookies appetizer pasta
-                        chocolate cookies simmer Thai lentils raspberry fizz.
-                    </p>
-                    <a href="#" class="btn btn-clear">More</a>
-                </section>
-
-                <!-- flex item 2 and a flex container -->
-                <section class="card">
-                    <img src="images/grapes_thin.jpg" alt="Red, purple, and green grapes">
-                    <h3>The Grape Escape</h3>
-                    <p>
-                        Cherry bomb cayenne apples burritos scotch bonnet pepper black bean
-                        wraps walnut mushroom tart tofu dessert Bulgarian carrot ginger
-                        lemongrass agave green tea macadamia nut cookies appetizer pasta
-                        chocolate cookies simmer Thai lentils raspberry fizz.
-                    </p>
-                    <a href="#" class="btn btn-clear">More</a>
-                </section>
-
-                <!-- flex item 3 and a flex container -->
-                <section class="card">
-                    <img src="images/cherries_thin.jpg" alt="Large grouping of cherries">
-                    <h3>Eat, Drink and Be Cherry</h3>
-                    <p>
-                        Cherry bomb cayenne apples burritos scotch bonnet pepper black bean
-                        wraps walnut mushroom tart tofu dessert Bulgarian carrot ginger
-                        lemongrass agave green tea macadamia nut cookies appetizer pasta
-                        chocolate cookies simmer Thai lentils raspberry fizz.
-                    </p>
-                    <a href="#" class="btn btn-clear">More</a>
-                </section>
-            </div>
-        </section>
     </main>
 
     <div class="parallax"></div>
