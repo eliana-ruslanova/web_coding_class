@@ -1,4 +1,9 @@
 /* These are the styles for Fruitopia */
+/* * means every html tag, used sparingly*/
+* {
+    box-sizing: border-box;
+}
+
 body {
     max-width: 1900px;
     margin: 0 auto;
@@ -13,6 +18,12 @@ body {
   font-size: calc(12px + (20 - 12) * (100vw - 320px) / (1600 - 320));
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap; /*move to separate line*/
+    /*border: thin dashed red;*/
+
+}
 /* Header */
 
 header {
@@ -22,6 +33,20 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding-top:100px;
+}
+
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, .92);
+    margin: 5vh 10vw;/*outside borders before that it was window width*/
+    padding-top: 10px; /*added a little bit of space on top inside the borders*/
+    border-radius: 10px; /*soften the corners*/
+    border: px double #e22232;
+    font-weight: bold;
+    color: #f65f02;
 }
 
 .home header {
@@ -36,11 +61,13 @@ header h1 {
     font-size: 3em;
     color: #e23222;
     text-shadow: 3px 2px rgba(236,235,147,.75);
+    margin: 0; /*tighten up the space in the box*/
 }
 
 header h1::first-letter {
     font-size: 2em;
     line-height: 1;
+    margin-right: -.2em; /* bring first letter closer*/
 }
 
 h2 {
@@ -52,6 +79,20 @@ img {
    max-width: 100%; 
    object-fit: cover;
    border-radius: 5px;
+}
+
+/*select div with the class="row"  that is the first
+    immediate child of .home main*/
+.home main>div.row {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+
+}
+
+.number-block {
+    padding: 0 50px;
 }
 
 .number-block p {
@@ -69,8 +110,21 @@ img {
   box-shadow: 10px 5px 40px #e3f5ab, -10px -5px 50px #0a940a;  
 }
 
+.info-block {
+    padding: 0 5px;
+}
+
+.info-block h2 {
+    color: #0a940a;
+}
+
+.info-block p {
+    margin-top: -20px;
+}
+
 .container-block {
     background-color: #f6f5b2;
+    padding: 20px; /*give fruit musings a bit of space*/
 }
 
 .home .container-block {
@@ -78,8 +132,50 @@ img {
     background: linear-gradient(to bottom, #0a940a 0%, #eef2a2 100%);
 }
 
+.container-block h2 {
+    text-align: center;
+    color: #f65f02; /*not on home but on all other pages*/
+}
+
 .home .container-block h2 {
     color: #fff;
+}
+
+.container-block div.row {
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.card {
+    /*flex container propetires*/
+    display: flex;
+    flex-direction: column;
+
+    /*flex item property*/
+    flex-basis: 450px;
+
+    /*general properties*/
+    border: 2px solid #0a940a;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 1vw;
+    border-radius: 40px;
+}
+
+.card img {
+    border-radius: 30px 30px 0 0;
+
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card p{
+    margin: 0;
+    padding: 1em;
+
 }
 
 .parallax {
