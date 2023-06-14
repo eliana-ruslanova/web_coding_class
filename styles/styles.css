@@ -24,6 +24,58 @@ body {
     /*border: thin dashed red;*/
 
 }
+
+/* Navigation*/
+
+nav {
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(245, 245, 220, .9);
+    position: sticky; /*nav always stay visible + top=0*/
+    top: 0;
+    z-index: 100; /*allows create layers if position something other than static*/
+    margin-bottom: -85px; /*push the background picture up*/
+    
+}
+
+nav a {
+    margin: 0 1vw;
+    padding: 3px 5px;
+    color: #0a940a;
+    font-size: .9em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    /*clear bottom border so links do not jump when hovering*/
+    border-bottom: thin solid rgba(0, 0, 0, .0);
+}
+
+/*you are here indicator*/
+nav a.current {
+    border-bottom: thin solid #0a940a;
+
+}
+
+/*all nav links except the first one*/
+
+nav a:not(.logo-icon):hover {
+    color: #f65f02;
+    border-bottom: thin solid #f65f02;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logo-icon {
+    display: inline-block; /*look like inline element but also function with margin and padding*/
+    padding: 3px 10px;
+    margin: 5px auto 5px 10px; /*auto right fly to the left*/
+    max-height: 70px;
+    font-size: 1.25em;
+    line-height: 1.25;
+    font-family: 'sonsie one', cursive;
+    color: #e23222;
+    border: 4px double #e23222;
+    border-radius: 30%;
+}
 /* Header */
 
 header {
@@ -80,6 +132,9 @@ img {
    object-fit: cover;
    border-radius: 5px;
 }
+
+/* button stylings */
+
 
 /*select div with the class="row"  that is the first
     immediate child of .home main*/
