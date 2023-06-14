@@ -1,0 +1,72 @@
+      <tr>
+        <td>Haden Mangoes</td>
+        <td>$2.99</td>
+        <td>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Peaches</td>
+        <td>$3.49</td>
+        <td>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </td>
+      </tr>
+      <tr>
+        <td>Plums</td>
+        <td>$4.79</td>
+        <td>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
+        </td>
+      </tr>
+      <tr>
+        <td>Raspberries</td>
+        <td>$4.99</td>
+        <td>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
+        </td>
+      </tr>
+      <tr>
+        <td>Starfruit</td>
+        <td>$4.99</td>
+        <td>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </td>
+      </tr>
+      <tr>
+        <td>Strawberries</td>
+        <td>$3.85</td>
+        <td>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
+        </td>
+      </tr>
+      <tr>
+        <td>Watermelon</td>
+        <td>$4.00 Each</td>
+        <td>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </td>
+      </tr>
