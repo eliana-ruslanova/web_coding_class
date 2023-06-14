@@ -1,1 +1,86 @@
+      <!-- for gallery.html -->
 
+      <figure>
+        <img src="images/sm_cherries.png" alt="Up-close cherries">
+        <figcaption>
+          Bing Cherries
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_dragonfruit.png" alt="Up-close dragonfruit">
+        <figcaption>
+          Dragonfruit
+        </figcaption>
+      </figure>
+
+      <!-- begin lazy loading of images (below the fold) -->
+      <figure>
+        <img src="images/sm_grapes.png" alt="Up-close grapes" loading="lazy">
+        <figcaption>
+          Purple and Green Grapes
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_kiwi.png" alt="Up-close sliced kiwi" loading="lazy">
+        <figcaption>
+          Kiwi
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_mangoes.png" alt="Up-close mangoes" loading="lazy">
+        <figcaption>
+          Haden Mangoes
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_oranges.png" alt="Up-close oranges" loading="lazy">
+        <figcaption>
+          Valencia Oranges
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_peaches.png" alt="Up-close peaches" loading="lazy">
+        <figcaption>
+          Peaches
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_plums.png" alt="Up-close plums" loading="lazy">
+        <figcaption>
+          Plums
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_raspberries.png" alt="Up-close raspberries" loading="lazy">
+        <figcaption>
+          Raspberries
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_starfruit.png" alt="Up-close starfruit" loading="lazy">
+        <figcaption>
+          Starfruit
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_strawberries.png" alt="Up-close strawberries" loading="lazy">
+        <figcaption>
+          Strawberries
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/sm_watermelon.png" alt="Up-close sliced watermelon" loading="lazy">
+        <figcaption>
+          Watermelon
+        </figcaption>
+      </figure>
