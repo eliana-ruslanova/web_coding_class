@@ -155,6 +155,17 @@ img {
     border: thin solid #0a940a;
     color: #0a940a;
 }
+
+.btn:hover {
+    background-color: #0a940a;
+    color: #FFF;
+}
+
+.btn:active {
+    background-color: #f5f5dc;
+    color: #ed872d;
+    border-color: #ed872d;
+}
 /*select div with the class="row"  that is the first
     immediate child of .home main*/
 .home main>div.row {
