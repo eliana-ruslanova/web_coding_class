@@ -107,6 +107,10 @@ header div {
     background-position: top center;
 }
 
+.gallery header {
+    background-image: url(../images/fruits-82524_1920.jpg);
+}
+
 header h1 {
     font-style: italic;
     font-family: 'sonsie one', cursive;
@@ -120,6 +124,11 @@ header h1::first-letter {
     font-size: 2em;
     line-height: 1;
     margin-right: -.2em; /* bring first letter closer*/
+}
+
+
+.gallery header h1::first-letter {
+    margin-right: -.1em; /* bring first letter closer*/
 }
 
 h2 {
@@ -263,6 +272,28 @@ img {
     line-height: 1.5;
 }
 
+.gallery main .row {
+    justify-content: center;
+    align-content: stretch;
+}
+
+.gallery figure {
+    flex-basis: 300px;
+}
+
+.gallery figure img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 50%; /* since the img is the same width and height images became circles*/
+
+}
+
+.gallery figcaption {
+    font-size: .75em;
+    text-align: center;
+    padding-top: 5px;
+
+}
 .parallax {
     min-height: 350px;
     background-image: url(../images/green-apples.jpg);
@@ -270,6 +301,11 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.gallery .parallax {
+    background-image: url(../images/fruit-array.jpg);
+    background-position: 0 120px;
 }
 
 footer {
@@ -303,3 +339,4 @@ footer a:active {
         min-height: 200px;
     }
 }
+
